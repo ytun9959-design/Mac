@@ -4,8 +4,8 @@ import requests
 from flask import Flask
 from threading import Thread
 
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE" # ဒီနေရာမှာ သင့် Bot Token အစစ်ထည့်ပါ
-PHONE_SERVER_URL = "https://attractions-factors-permissions-demographic.trycloudflare.com/scan" # သင့် Cloudflare လင့်ခ်
+BOT_TOKEN = "8924688790:AAGPR_sDM1rwUkBFbe0cKb3qQvgCHdUj9tU" # ဒီနေရာမှာ သင့် Bot Token အစစ်ထည့်ပါ
+PHONE_SERVER_URL = "https://script-demonstrated-valued-cons.trycloudflare.com" # သင့် Cloudflare လင့်ခ်
 
 bot = telebot.TeleBot(BOT_TOKEN)
 app = Flask(__name__)
